@@ -50,8 +50,10 @@ public class PostRepository {
                     "Sarah Holderness", new Date())
     ));
 
-    public List<Post> getAllPosts() {
-        return ALL_POSTS;
+
+        public List<Post> getAllPosts() {
+            return null;
+            return ALL_POSTS;
 
     }
 
