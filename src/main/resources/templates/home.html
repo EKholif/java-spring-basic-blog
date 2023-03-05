@@ -7,23 +7,11 @@
         <title th:text="${title}"></title>
     </head>
 <body>
-<h2 th:text="${title}"></h2>
-<div>
-    <tbody>
-    <tr>
-    <tr th:each="entry : ${posts}">
-        <td th:text="${entry.id}"></td>
-        <td th:text="${entry.lead}"></td>
-        <td th:text="${entry.body}"></td>
-        <td th:text="${entry.author}">
-        <td th:text="${entry.date}">
 
+    <div th:each="entry : ${posts}">
+        <h2 th:text="${entry.getTitle()}"></h2>
+    </div>
 
-        </td>
-
-
-    </tr>
-    </tbody>
 
 
 </div>
