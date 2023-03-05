@@ -52,7 +52,6 @@ public class PostRepository {
 
 
         public List<Post> getAllPosts() {
-            return null;
             return ALL_POSTS;
 
     }
